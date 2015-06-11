@@ -1,6 +1,13 @@
 body {
 		font-family: "Lato", Helvetica, sans-serif;
-}
+		color: #666;
+		font-family: "Lato", sans-serif;
+		font-size: 16px;
+		line-height: 1.6;
+		margin: 0;
+		min-width: 940px;
+		padding: 0;
+ 	}
 
 h1,
 h2,
@@ -14,4 +21,18 @@ h6 {
 .header {
 	background-color: #222; 
 	background-image: url(../images/header.jpg);
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
