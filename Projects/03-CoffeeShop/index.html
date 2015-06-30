@@ -1,117 +1,96 @@
 <!DOCTYPE html>
 <html>
-	<head>
+	<head>   
 		<meta charset="UTF-8">
 		<title>Grinders Coffee Shop</title>
 
 		<link href='http://fonts.googleapis.com/css?family=Lato|Sanchez' rel='stylesheet' type='text/css'>
 
+		<link href="css/normalize.css" rel="stylesheet">
+		<link href="css/grid.css" rel="stylesheet">
 		<link href="css/master.css" rel="stylesheet">
-		
-	</head>
-	<body>
-		<header class="header">
-				<!-- Header -->
-			<div class="logo">Grinders</div>
-				<h1>We Are Grinders Coffee Co.</h1>
 
+	</head>
+	<body class="fs-grid">
+				<!-- Header -->
+		<header class="bar bar_black header">
+			<div class="fs-row">
+				<div class="fs-cell-centered fs-lg-11 fs-xl-9">
+					<h1 class="logo">We Are Grinders Coffee Co.</h1>
+					
 					<p class="intro">Grinders is where people gather to experience the true spirit of generosity. This is not a term we use lightly, and it's what keeps our customers coming back for more.</p>
 
+				</div>
+			</div>
 		</header>
 
 			<!-- Menu -->
-		<section class="menu">
-			<h2>Coffee Bar</h2>
-			<div class="table">
-				<table>
-					<tr>
-						<td class="spaced2">Poured-Over Coffee</td>
-						<td class="price3"> tree fiddy </td>
-					</tr>
-					<tr class="noborder">
-						<td class="space2">Cold Brew Iced Coffee</td>
-						<td class="price3"> tree fiddy </td>
-					</tr>
-					<tr>
-						<td class="spaced2">French Press to Share</td>
-						<td class="price3"> 7</td>
-					</tr>
-					<tr class="noborder">
-						<td class="spaced2">Chemex to Share</td>
-						<td class="price3"> 7</td>
-					</tr>
-				</table>		
+		<section class="bar bar_gold menu">
+			<div class="fs-row">
+				<div class="fs-cell-centered fs-lg-11 fs-xl-9">
+				<!--what was"container" <div class="container">-->
+					<div class="menu_set">
+						<h2>Coffee Bar</h2>
+						<ul class="menu_list clearfix">
+							<li class="menu_item fs-cell fs-md-half fs-lg-half">Pour-Over Coffee <span class="menu_price">tree fiddy</span></li>
+							<li class="menu_item fs-cell fs-md-half fs-lg-half">Cold Brew Iced Coffee <span class="menu_price">tree fiddy</span></li>
+							<li class="menu_item menu_last fs-cell fs-md-half fs-lg-half">French Press to share <span class="menu_price">7</span></li>
+							<li class="menu_item menu_last fs-cell fs-md-half fs-lg-half">Chemex to share <span class="menu_price">7</span></li>
+						</ul>
+					</div>
+				
+					<div class="menu_set">
+						<h2>Espresso Bar</h2>
+						<ul class="menu_list fs-row">
+							<li class="menu_item fs-cell fs-md-half fs-lg-half">Espresso <span class="menu_price">2.5</span></li>
+							<li class="menu_item fs-cell fs-md-half fs-lg-half">Cappuccino <span class="menu_price">3.75</span></li>
+							<li class="menu_item fs-cell fs-md-half fs-lg-half">Latte <span class="menu_price">4</span></li>
+							<li class="menu_item fs-cell fs-md-half fs-lg-half">Mocha <span class="menu_price">4.5</span></li>
+							<li class="menu_item fs-cell fs-md-half fs-lg-half">Macchiato <span class="menu_price">3<r/span></li>
+							<li class="menu_item fs-cell fs-md-half fs-lg-half">Americano <span class="menu_price">3.5</span></li>
+							<li class="menu_item fs-cell fs-md-half fs-lg-half">Maple Macchiato <span class="menu_price">3.5</span></li>
+							<li class="menu_item fs-cell fs-md-half fs-lg-half">Honey Macchiato <span class="menu_price">5</span></li>
+							<li class="menu_item menu_last fs-cell fs-md-half fs-lg-half">Cajita Latte <span class="menu_price">5</span></li>
+							<li class="menu_item menu_last fs-cell fs-md-half fs-lg-half">Chai <span class="menu_price">4</span></li>
+						</ul>
+					</div>
+				</div>
 			</div>
-
-			<h2>Expresso Bar</h2>
-			
-			<div class="table">
-				<table>
-					<tr>
-						<td class="spaced2">Espresso</td>
-						<td class="price3"> two fiddy</td>
-					</tr>
-					<tr>
-						<td class="spaced2">Cappuccino</td>
-						<td class="price3"> 4</td>
-					</tr>
-					<tr>
-            	    	<td class="spaced2">Latte</td>
-                		<td class="price3"> 4</td>
-    	       		</tr>
-        	   		<tr>
-           	    		<td class="spaced2">Mocha</td>
-               			<td class="price3"> four fiddy</td>
-       	 	 		</tr>
-            		<tr class="noborder">
-                		<td class="spaced2">Macchiato</td>
-              	  		<td class="price3">3</td>
-           			</tr>
-           			<tr>
-                		<td class="spaced2">Americano</td>
-       		         	<td class="price3"> tree fiddy</td>
-            		</tr>
-            		<tr>
-               			<td class="spaced2">Maple Macchiatto</td>
-               			<td class="price3"> 5</td>
-          		 	</tr>
-            		<tr>
-    	           		<td class="spaced2">Honey Macchiatto</td>
-        	       		<td class="price3"> 5</td>
-           			</tr>
-           			<tr>
-          		   		<td class="spaced2">Cajita Latte</td>
-               			<td class="price3"> 5</td>
-        	   		</tr>
-           			<tr class="noborder">
-               			<td class="spaced2">Chai</td>
-               			<td class="price3"> 4</td>
-           			</tr>
-       			</table>
 		</section>
-
+		
 			<!-- Location -->
     	<section class="hours-location">
-        	<div class="content">
-            	<div class="info">
-            
-            	<h3>Hours & Location</h3>
-            
-            	<p class="grey">Open 7am - 5pm, 7 days a Week</p>
-            	<p class="grey"><a href="410-509-8010" class="tel">410-509-8010</a></p>
-            	<p class="grey">Grinders Coffee Co.<br>4511 W 31st St.<br>Baltimore, MD 21232</p>
-            
-            	<button>Get Directions</button>
-        
-        		</div>
-        	</div>
-
-        	<div class="shop">shop picture</div>
+        	<div class="fs-row">
+				<div class="fs-cell-centered fs-md-5 fs-lg-8 fs-xl-7">
+					<div class="fs-row">
+						<div class="fs-cell fs-xs-full fs-sm-2 fs-md-half fs-lg-half">
+							<h3>Hours & Location</h3>
+							<p>
+								Open 7am - 5pm, 7 days a Week
+							</p>
+							<p>
+								410-509-8010
+							</p>
+							<p>
+								Grinders Coffee Co.
+								<br>
+								4511 W 31st St.
+								<br>
+								Baltimore, MD 21232
+							</p>
+							<a href="#" class="button">Get Directions</a>
+						</div>
+						<figure class="picture fs-cell fs-xs-full fs-sm-2 fs-md-half fs-lg-half">
+							<img src="images/location.jpg" alt="">
+						</figure>
+					</div>
+				</div>
+			</div>
         
     	</section>
     
     		<!--Footer-->
-    	<section>
+    	<section >
     		<footer>
         		<p class="foot-pos copyright">&#169;2015 Grinders Coffee Co.</p>
         
@@ -125,7 +104,11 @@
     
     		</footer>		
 		</section>
+		<script>
+(function(){if(typeof FSGridBookmarklet==='undefined'){document.body.appendChild(document.createElement('script')).src='http://beta.formstone.it/js/bookmarklet/grid.js';}else{FSGridBookmarklet();}})();
 
+
+</script>
 	</body>
 </html>
 		<!--END of HTML CODE-->
