@@ -1,0 +1,16 @@
+// set 'global' variables
+
+$(document).ready(function() {
+	// Blind events
+
+});
+
+// on digit press
+
+// on operator press
+
+// on equals press, evaluate equation
+
+// on clear press
+
+// update display
